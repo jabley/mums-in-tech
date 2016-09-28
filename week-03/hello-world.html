@@ -20,7 +20,12 @@
           <input id="age" name="age" />
         </div>
       </form>
-      <button>Submit</button>
+      <button onclick="buttonWasClicked()">Submit</button>
     </main>
   </body>
+  <script>
+  function buttonWasClicked() {
+    document.forms[0].submit();
+  }
+  </script>
 </html>
