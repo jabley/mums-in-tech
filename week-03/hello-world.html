@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello world!</title>
+    <style type="text/css">
+      .on {
+        background-color: red;
+      }
+      .off {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body class="off">
+    <main>
+      <button onclick="buttonWasClicked()">Click Me!</button>
+    </main>
+  </body>
+  <script>
+  function buttonWasClicked() {
+    if (document.body.className === "off") {
+      document.body.className = "on";
+    } else {
+      document.body.className = "off";
+    }
+  }
+  </script>
+</html>
