@@ -7,11 +7,18 @@ main {
   overflow: auto;
 }
 
-nav {
-  float: left;
-  max-width: 150px;
+@media screen and (min-width:640px) {
+  nav {
+    float: left;
+    max-width: 150px;
+  }
+  section {
+    margin-left: 150px;
+  }
 }
 
-section {
-  margin-left: 150px;
+@media screen and (max-width:639px) {
+  nav li {
+    display: inline;
+  }
 }
