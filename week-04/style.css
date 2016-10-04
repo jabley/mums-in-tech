@@ -4,11 +4,11 @@ li {
 
 main {
   position: relative;
+  overflow: auto;
 }
 
 nav {
-  position: absolute;
-  left: 0px;
+  float: left;
   max-width: 150px;
 }
 
