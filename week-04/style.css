@@ -5,3 +5,9 @@ li {
 main {
   position: relative;
 }
+
+nav {
+  position: absolute;
+  left: 0px;
+  max-width: 150px;
+}
